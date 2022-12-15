@@ -1,5 +1,4 @@
 # VinculumToken 
-# ID:977513248
 
 Vinculum
 - A bar drawn over two or more algebraic terms to indicate that they are to be treated as a single term.
@@ -19,4 +18,4 @@ Freeze - Vinculum is immutable. It cannot be frozen so this has been removed fro
 Clawback - Vinculum is immutable. It cannot be clawed back so this has been removed from the Smart Contract.
 
 # Timeline
-- 15 DEC 2022 -Token Created.
+- 15 DEC 2022 -Token Created. ID 977513248
