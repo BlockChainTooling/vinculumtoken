@@ -1,0 +1,3 @@
+- Performed data scrape against /r/AlgorandOfficial and saved results locally.
+- Parsed results to only include threads mentioning airdrops.
+- Parsed wallet addresses of users asking for / entering token drop.
