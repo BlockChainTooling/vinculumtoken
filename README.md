@@ -19,3 +19,4 @@ Clawback - Vinculum is immutable. It cannot be clawed back so this has been remo
 
 # Timeline
 - 15 DEC 2022 -Token Created. ID 977513248
+- 15 DEC 2022 - 9,499,740 VINC placed into VINC / ALGO pool
