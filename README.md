@@ -12,14 +12,16 @@ It is an Algorand Standard Asset which runs on the Algorand blockchain. The Algo
 The ultimate goal with Vinculum is to provide liquidity, utility and stability over the long term. This Repo will be an open source store of tools, documents, and the whitepaper which is in progress.
 
 # Features
-Manager Account - Vinculum owner (me)
-Reserve - This was the manager account but 99% of Vinculum was added to a TinyMan pool to ensure the owner can't perform a fast exit (rug pull).
-Freeze - Vinculum is immutable. It cannot be frozen so this has been removed from the Smart Contract.
-Clawback - Vinculum is immutable. It cannot be clawed back so this has been removed from the Smart Contract.
+- Reserve - This was the manager account but 99% of Vinculum was added to a TinyMan pool to ensure the owner can't perform a fast exit (rug pull).
+- Freeze - Vinculum is immutable. It cannot be frozen so this has been removed from the Smart Contract.
+- Clawback - Vinculum is immutable. It cannot be clawed back so this has been removed from the Smart Contract.
 
 # Timeline
 - 15 DEC 2022 -Token Created. ID 977513248
 - 15 DEC 2022 - 9,499,740 VINC placed into VINC / ALGO pool
+
+# Roadmap
+- Pending whitepaper
 
 On the web:
 - *Main updates will be on this GitHub*
