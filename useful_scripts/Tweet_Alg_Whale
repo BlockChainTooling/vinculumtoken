@@ -1,0 +1,29 @@
+#!/bin/bash
+#Bash code that Tweets when a large Algorand transaction is made. 
+#Needs curl and JQ
+
+
+# Set the API key and API secret for your Twitter app
+API_KEY="your_api_key"
+API_SECRET="your_api_secret"
+
+# Set the access token and access token secret for your Twitter app
+ACCESS_TOKEN="your_access_token"
+ACCESS_TOKEN_SECRET="your_access_token_secret"
+
+# Set the block height or range of blocks to retrieve data for
+BLOCK_START=12345
+BLOCK_END=12355
+
+# Use the Algorand API to retrieve transaction data for the specified blocks
+TRANSACTION_DATA=$(curl -s "https://api.algorand.network/v1/transactions?minRound=$BLOCK_START&maxRound=$BLOCK_END")
+
+# Parse the JSON data to extract the relevant transaction information
+for transaction in $(echo "$TRANSACTION_DATA" | jq -r '.transactions[]'); do
+  AMOUNT=$(echo "$transaction" | jq -r '.amount')
+  SENDER=$(echo "$transaction" | jq -r '.sender')
+  RECIPIENT=$(echo "$transaction" | jq -r '.recipient')
+
+  # If the transaction is a large transaction (e.g. over 1000 Algos), tweet about it
+  if [ "$AMOUNT" -gt 1000 ]; then
+    MESSAGE="A large Algorand transaction of $AMOUNT Alg
