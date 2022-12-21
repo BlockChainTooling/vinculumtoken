@@ -28,6 +28,6 @@ The ultimate goal with Vinculum is to provide liquidity, utility and stability o
 - Discord Community
 - Signal Community 
 
-On the web:
+# On the web:
 - *Main updates will be on this GitHub*
 - @VinculumToken on Twitter (currently restricted because Twitter verification system is broken)
