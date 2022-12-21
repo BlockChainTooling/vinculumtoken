@@ -21,7 +21,12 @@ The ultimate goal with Vinculum is to provide liquidity, utility and stability o
 - 15 DEC 2022 - 9,499,740 VINC placed into VINC / ALGO pool
 
 # Roadmap
-- Pending whitepaper
+- Pending Whitepaper
+- Governance Token - This will allow the community to vote and affect change
+- Staking Pools
+- Liquididty benefits
+- Discord Community
+- Signal Community 
 
 On the web:
 - *Main updates will be on this GitHub*
