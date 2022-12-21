@@ -30,4 +30,4 @@ The ultimate goal with Vinculum is to provide liquidity, utility and stability o
 
 # On the web:
 - *Main updates will be on this GitHub*
-- @VinculumToken on Twitter
+- @VinculumToken on Twitter (I get banned every time I tweet and my followers drop to 0...so that's cool)
