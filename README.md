@@ -1,3 +1,5 @@
+If anyone wants to help grow this token or contribute skills please raise an issue or comment.
+
 # VinculumToken 
 
 Vinculum
@@ -19,6 +21,7 @@ The ultimate goal with Vinculum is to provide liquidity, utility and stability o
 # Timeline
 - 15 DEC 2022 -Token Created. ID 977513248
 - 15 DEC 2022 - 9,499,740 VINC placed into VINC / ALGO pool
+- 21 DEC 2022 - Added VINC/ALGO pool into TinyLock for 365 days (https://tinylock.org/search?asa1=977513248). If you don't know what TinyLock is, please look it up. All of my pool tokens are locked and canno't be removed for 365 days. I can't remove liquidity or rug pull even if I wanted to. 
 
 # Roadmap
 - Pending Whitepaper
